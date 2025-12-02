@@ -1,36 +1,3 @@
-
-<style>
-h1 {
-  font-size: 2.4rem;
-  color: #42b883;
-  border-bottom: 3px solid #35495e;
-  padding-bottom: 6px;
-}
-h2 {
-  font-size: 1.8rem;
-  color: #35495e;
-  margin-top: 30px;
-}
-h3 {
-  font-size: 1.4rem;
-  color: #42b883;
-}
-blockquote {
-  border-left: 4px solid #42b883;
-  margin: 1em 0;
-  padding: 0.5em 1em;
-  background: #f5f5f5;
-}
-code {
-  background: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
-}
-ul ul {
-  margin-left: 20px;
-}
-</style>
-
 # 🚀 Roadmap Completo para Aprender Vue — Do Zero ao Avançado
 
 > Um guia prático e teórico para programadores iniciantes que desejam aprender Vue com base sólida em JavaScript, POO e TypeScript.
