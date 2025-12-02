@@ -1,215 +1,234 @@
-# 🚀 Roadmap Completo para Aprender Vue 3 (com TypeScript)
 
-> Guia prático + teórico para quem está começando do zero em JavaScript
-> e quer trabalhar com Vue profissionalmente.
+<style>
+h1 {
+  font-size: 2.4rem;
+  color: #42b883;
+  border-bottom: 3px solid #35495e;
+  padding-bottom: 6px;
+}
+h2 {
+  font-size: 1.8rem;
+  color: #35495e;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 1.4rem;
+  color: #42b883;
+}
+blockquote {
+  border-left: 4px solid #42b883;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background: #f5f5f5;
+}
+code {
+  background: #eee;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+ul ul {
+  margin-left: 20px;
+}
+</style>
 
-------------------------------------------------------------------------
+# 🚀 Roadmap Completo para Aprender Vue — Do Zero ao Avançado
 
-## 🧱 1. Fundamentos da Web
+> Um guia prático e teórico para programadores iniciantes que desejam aprender Vue com base sólida em JavaScript, POO e TypeScript.
 
-### HTML
+---
 
--   Estrutura da página\
--   Tags semânticas\
--   Atributos\
--   Formulários\
--   Inputs e validações básicas
+# 1️⃣ Fundamentos da Web
 
-**Fontes recomendadas:**\
-- https://developer.mozilla.org/en-US/docs/Web/HTML\
-- https://www.w3schools.com/html/\
-- https://www.freecodecamp.org/learn/responsive-web-design/
+## 🌐 HTML
+- Estrutura de documentos
+- Tags e atributos
+- Formulários e inputs
+- Semântica
 
-### CSS
+## 🎨 CSS
+- Box Model
+- Flexbox
+- CSS Grid
+- Unidades (%, rem, vh, vw)
+- Seletores avançados
 
--   Box model\
--   Flexbox\
--   Grid\
--   Cores, fontes e espaçamentos\
--   Responsividade
+📚 **Fontes recomendadas:**
+- MDN HTML: https://developer.mozilla.org/en-US/docs/Web/HTML
+- MDN CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+- Flexbox Froggy (jogo): https://flexboxfroggy.com
+- Grid Garden: https://cssgridgarden.com
 
-**Fontes recomendadas:**\
-- https://developer.mozilla.org/en-US/docs/Web/CSS\
-- https://flexboxfroggy.com/\
-- https://cssgridgarden.com/
+---
 
-**Prática sugerida:**\
-Criar páginas de login, cadastro e dashboard.
+# 2️⃣ JavaScript Básico
 
-------------------------------------------------------------------------
+## 🔧 Conceitos essenciais
+- Variáveis: `let`, `const`
+- Tipos primitivos
+- Funções e escopo
+- Arrays e Objetos
+- Métodos essenciais: `map`, `filter`, `reduce`
+- Manipulação do DOM
+- Eventos
+- Async/Await e Promises
 
-## 🧠 2. JavaScript Básico
+👨‍💻 **Projeto sugerido:**  
+> Lista de tarefas em JavaScript puro.
 
--   let, const\
--   Tipos primitivos\
--   Funções e escopo\
--   Arrays e objetos\
--   Métodos importantes: map, filter, reduce, forEach\
--   DOM e eventos\
--   async/await e Promises
+📚 **Fontes:**
+- MDN JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- Eloquent JavaScript: https://eloquentjavascript.net
+- JavaScript.info: https://javascript.info
 
-**Fontes recomendadas:**\
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript\
--
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/\
-- https://eloquentjavascript.net/
+---
 
-**Prática:**\
-Criar um ToDo List simples em JavaScript puro.
+# 3️⃣ Programação Orientada a Objetos com JavaScript
 
-------------------------------------------------------------------------
+## 📘 Conceitos:
+- Objetos
+- Classes
+- Construtores
+- Métodos
+- Herança
 
-## 🏛️ 3. POO em JavaScript
+👨‍💻 **Projeto sugerido:**  
+> Criar classes `Usuario` e `ListaDeTarefas`.
 
--   Objetos\
--   Classes\
--   Construtores\
--   Métodos\
--   Herança\
--   Encapsulamento (conceitual)
+📚 **Fontes:**
+- MDN Classes: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
-**Prática:**\
-Criar classes Usuario e ListaDeTarefas.
+---
 
-**Fontes recomendadas:**\
--
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes\
-- https://www.youtube.com/watch?v=7r4xVDI2vho
+# 4️⃣ TypeScript
 
-------------------------------------------------------------------------
+## 🔒 Conceitos fundamentais:
+- Tipos primitivos
+- Interfaces
+- Generics
+- Enums
+- Tipagem de funções
+- Tipagem de classes
+- Narrowing
+- Type aliases
 
-## 🟦 4. TypeScript (após POO)
+📚 **Fontes:**
+- Documentação oficial: https://www.typescriptlang.org/docs
+- Guia prático: https://www.typescriptlang.org/cheatsheets
 
--   Tipos básicos\
--   Union types\
--   type aliases e interfaces\
--   Tipagem de funções e classes\
--   Generics\
--   tsconfig\
--   TypeScript + Vite\
--   Vue 3 com TS: defineProps, defineEmits, arquivos .vue com TS
+---
 
-**Prática:**\
-Migrar o ToDo App para TypeScript e tipar a store Pinia.
+# 5️⃣ Vue 3 — Fundamentos (Composition API)
 
-**Fontes recomendadas:**\
-- https://www.typescriptlang.org/docs/\
-- https://www.youtube.com/watch?v=30LWjhZzg50\
-- https://vuejs.org/guide/typescript/overview.html
+## 🧩 Conceitos:
+- Criando um projeto
+- Estrutura de templates
+- Reatividade com `ref` e `reactive`
+- Diretivas: `v-for`, `v-if`, `v-model`, etc.
+- Props e events
+- Computed
+- Watchers
 
-------------------------------------------------------------------------
+👨‍💻 **Projeto sugerido:**  
+> Criar um ToDo App completo em Vue.
 
-## 🌱 5. Fundamentos do Vue 3 (Composition API)
+📚 **Fontes:**
+- Documentação Vue 3: https://vuejs.org
+- Guia Composition API: https://vuejs.org/guide/extras/composition-api-faq.html
+- Vue School (gratuito): https://vueschool.io
 
--   Criar projeto com Vite\
--   Estrutura do componente\
--   Template, script e style\
--   Reatividade: ref, reactive\
--   Diretivas: v-if, v-for, v-bind\
--   Eventos: @click, @input\
--   computed e watch
+---
 
-**Prática:**\
-Criar um ToDo App em Vue.
+# 6️⃣ Componentização
 
-**Fontes recomendadas:**\
-- https://vuejs.org/guide/introduction.html\
-- https://www.youtube.com/watch?v=FXpIoQ_rT_c
+## 🧱 Aprenda:
+- Criar componentes
+- Comunicação (props → children, events → parent)
+- Slots
+- Organização de pastas
 
-------------------------------------------------------------------------
+👨‍💻 **Projeto sugerido:**  
+> Catálogo com:  
+> • Header  
+> • ListaDeProdutos  
+> • CardProduto  
 
-## 🧩 6. Componentização
+---
 
--   Props\
--   Emits\
--   Organização\
--   Reutilização\
--   Comunicação entre componentes
+# 7️⃣ Vue Router
 
-**Prática:**\
-Criar catálogo: Header.vue, ListaDeProdutos.vue, CardProduto.vue.
+## 🚦 Conceitos:
+- Criar rotas
+- Rotas dinâmicas
+- Rotas aninhadas
+- Navegação programática
 
-**Fontes recomendadas:**\
-- https://vuejs.org/guide/components/registration.html
+📚 **Fonte:**
+- https://router.vuejs.org
 
-------------------------------------------------------------------------
+---
 
-## 🛣️ 7. Vue Router
+# 8️⃣ Pinia (Estado Global)
 
--   Rotas básicas\
--   Rotas dinâmicas\
--   Navegação programática\
--   Guards
+## 🔗 Conceitos:
+- Criar stores
+- Persistência
+- Actions
+- Getters
+- Composição com Composition API
 
-**Prática:**\
-CRUD com múltiplas páginas.
+📚 **Fonte:**
+- https://pinia.vuejs.org
 
-**Fonte:**\
-https://router.vuejs.org/
+---
 
-------------------------------------------------------------------------
+# 9️⃣ Requisições HTTP
 
-## 📦 8. Pinia (State Management)
+## 🌐 Com Axios ou Fetch
+- GET / POST / PUT / DELETE
+- Loading e tratamento de erros
+- Composables reutilizáveis
 
--   Criar store\
--   Computeds\
--   Persistência
+📚 **Fontes:**
+- Axios: https://axios-http.com
+- Fetch API MDN: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
-**Prática:**\
-Store de login + produtos.
+---
 
-**Fonte:**\
-https://pinia.vuejs.org/
+# 🔟 Boas práticas e organização
 
-------------------------------------------------------------------------
+- ESLint + Prettier
+- Arquitetura de pastas
+- Padrões de commit (Conventional Commits)
+- Clean Code aplicado a JavaScript/Vue
 
-## 🌐 9. Requisições HTTP
+---
 
--   Fetch\
--   Axios\
--   Métodos HTTP\
--   Loading e erros
+# 1️⃣1️⃣ Deploy
 
-**Prática:**\
-Consumir Fake Store API: https://fakestoreapi.com/
+## ☁️ Plataformas:
+- Netlify
+- Vercel
+- GitHub Pages
 
-**Fontes recomendadas:**\
-- https://axios-http.com/\
-- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+---
 
-------------------------------------------------------------------------
+# 🏁 Projeto Final de Estudo
 
-## 🧭 10. Boas práticas
+## 🛒 E-Commerce Completo:
+- Catálogo
+- Carrinho
+- Rotas dinâmicas
+- Autenticação fake
+- API externa
+- Deploy online
 
--   ESLint\
--   Prettier\
--   Arquitetura\
--   Estrutura de pastas
+---
 
-**Fontes:**\
-- https://eslint.org/\
-- https://prettier.io/
+# 🎯 Conclusão
 
-------------------------------------------------------------------------
+Este roadmap entrega uma trilha clara e prática para evoluir de **iniciante absoluto** até **desenvolvedor Vue júnior**, com bases sólidas em JavaScript, POO e TypeScript.
 
-## 🚢 11. Deploy
-
--   Netlify\
--   Vercel\
--   GitHub Pages
-
-**Guias:**\
-- https://vercel.com/docs\
-- https://docs.netlify.com/
-
-------------------------------------------------------------------------
-
-## 🏆 Projeto Final --- E-commerce Completo
-
-Inclua: - Catálogo\
-- Carrinho\
-- Autenticação fake\
-- API\
-- Pinia\
-- Rotas\
-- Deploy
+Se quiser, posso gerar:
+- Uma versão **temática** (dark mode, cyberpunk, minimalista)
+- Uma versão **PDF estilizada**
+- Uma versão **HTML interativa**
