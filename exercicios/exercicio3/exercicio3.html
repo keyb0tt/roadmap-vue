@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .formulario {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 225px;
+        background-color: gray;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 3</h1>
+    <h2>Formulário</h2>
+
+    <div class="formulario">
+      <form>
+        <p>Input de texto: <input type="text" name="input_texto" /></p>
+        <p>Input de email: <input type="email" name="input_email" /></p>
+        <p>Input de senha: <input type="password" name="input_senha" /></p>
+        <p>
+          <input type="checkbox" name="checkbox_um" id="checkbox_um" />
+          <label for="checkbox_um">Checkbox 1</label>
+          <input type="checkbox" name="checkbox_dois" id="checkbox_dois" />
+          <label for="checkbox_dois">Checkbox 2</label>
+          <input type="checkbox" name="checkbox_tres" id="checkbox_tres" />
+          <label for="checkbox_tres">Checkbox 3</label>
+        </p>
+        <input type="submit" value="Enviar" class="input_submit"/>
+      </form>
+    </div>
+  </body>
+</html>
